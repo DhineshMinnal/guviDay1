@@ -1,0 +1,70 @@
+ 
+
+Object:
+In JavaScript, an object is a unique entity, with properties and their functions.  For example let us consider bike is as object. It has the appearance type, model, specifications as properties and can be used for a ride(its function). The same way, JavaScript objects can have properties, which define their characteristics.
+
+In JavaScript, the following datatypes can be considered as objects.
+
+Booleans  (if defined with the new keyword)
+Numbers  (if defined with the new keyword)
+Strings  (if defined with the new keyword)
+Dates
+Maths
+Regular expressions
+Arrays
+Functions
+All JavaScript values, except primitives, are objects.
+
+Creating Objects in JavaScript:
+By object literal
+By using new keyword
+By object literal:
+The syntax of creating object using object literal is given below:
+
+let obj = {
+    key1: value1,
+    key2: value2,
+    key3: value3,
+    key4: value4,
+    .
+    .
+    .
+}
+
+
+
+Property and value is separated by colon(:).
+
+Example: var person = {
+    name: "yuvaraj"
+    age: 28,
+    education: BE
+}
+
+
+By creating instance of Object directly (using new keyword):
+The syntax of creating object directly is given below:
+
+    var obj = new Object()
+
+Here, new keyword is used to create object.
+
+Example:
+    var emp = new Object()
+    emp.id = 101
+    emp.name = "Naveen"
+    emp.salary = 15000
+
+
+Accessing JavaScript Objects:
+The syntax for accessing the property of an object is:
+
+Dot notation: objectName.property
+
+or
+
+Bracket notation: objectName[“property”]
+
+Accessing ‘fname’ from example 1 using dot operator, Here most frequent one is dot notation
+
+
